@@ -1,0 +1,538 @@
+body {
+  background-color: #d1d5dd;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+nav{
+ 
+  text-transform: capitalize;
+  display: flex;
+  gap: 0.3rem;
+}
+nav img{
+  object-fit: contain;
+}
+
+
+nav h1{
+  color: #3b82f6;
+}
+.page{
+  text-transform: capitalize;
+}
+
+.page span{
+  text-transform: capitalize;
+  color: #3b82f6;
+}
+
+.logo-center{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.container{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+.btn-hero{
+  margin-left: 1rem;
+  margin-top: 2rem;
+  box-shadow: 1px 1.4px 2px rgba(0,0,0,1);
+  background-color: #3b82f6;
+  color: white;
+  transition: all 0.3s;
+  border-radius: 5px;
+  
+}
+
+.disabled-btn{
+  margin-left: 1rem;
+  margin-top: 2rem;
+  opacity: 0.7;
+  cursor: no-drop;
+  background-color: #3b82f6;
+  color: white;
+  transition: all 0.3s;
+  border-radius: 5px;
+
+}
+
+.btn-inline{
+  margin-top: 2rem;
+  box-shadow: 1px 1px 0px rgba(0,0,0,1);
+  background-color: #3b82f6;
+  color: white;
+  transition: all 0.3s;
+  width: 75%;
+  
+}
+
+
+.btn-inline:hover{
+  color: #3b82f6;
+  background-color: white;
+  border: 2px solid #3b82f6 ;
+  cursor: pointer;
+
+}
+.main-container{text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container p{
+  color: rgb(138, 161, 174);
+}
+.btn-hero:hover{
+  cursor: pointer;
+  color: #3b82f6;
+  border: 1px solid #3b82f6;
+  background-color: #f1f4f8;
+  transition: all 0.1s;
+}
+
+.btn{
+  border: none;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.login_container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ background-color: aliceblue;
+
+}
+.login_page{
+ 
+  padding: 2rem;
+  border-radius: 7px;
+  background-color: white;
+  height: auto;
+  border-top: 6px solid #3b82f6;
+
+  box-shadow: 6px 4px 12px rgb(192, 194, 203);
+  width: 30%;
+
+}
+
+.login_page h2{
+  text-align: center;
+  color: #3b82f6;
+}
+.input-field{
+ 
+  width: 70%;
+  height: 28px;
+  border: none;
+  margin-top: 2rem;
+  background-color: #e7ecf6;
+}
+
+.input-name{
+  margin-right: 5px;
+  font-weight: 500;
+}
+.btn-link{
+  color: #3b82f6;
+  font-weight: bold;
+  background: none;
+  border: none;
+  font-size: 16px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.navbar li{
+  list-style: none;
+  float: left;
+  padding: 1rem;
+
+}
+li{
+  padding: 1rem;
+  list-style: none;
+  
+}
+a{
+  text-decoration: none;
+}
+
+.dashboard{
+  display: grid;
+
+
+}
+.place-item-center{
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+.mybtn{
+  margin-top: 2rem;
+  margin-left: 4rem;
+  padding-bottom: 6px;
+  height: 30px;
+  width: auto;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+}
+.mybtn-icon{
+  cursor: pointer;
+ border: none;
+ background: none;
+ font-size: 30px;
+  color: #3b82f6;
+ 
+}
+.navbar{
+  transition: all ease-in 0.3s;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+ height: 15vh;
+  background-color:white;
+
+}
+.small-sidebar{
+  transition: all ease-in 0.3s;
+  float: left;
+  width: 16%;
+  background-color: white;
+  height:100vh;
+}
+
+.input{
+  border: none;
+  background-color:  #e3eff7  ;
+  margin: 0.6rem;
+  height: 24px;
+  width: 25%;
+}
+.big-sidebar{
+  transition: all ease-in 0.3s;
+  float: left;
+  width: 84%;
+  background-color: #e3eff7;
+  height: 100vh;
+
+}
+
+
+.active-link{
+  font-weight: bold;
+  color: #3b82f6;
+}
+
+.inactive-link{
+
+  color: #5a77a7;
+}
+
+.big-sidebar-profile{
+  padding: 1.4rem;
+  background-color: white;
+  height: 50vh;
+  margin:2.5rem;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.job-container{
+  transition: all ease-in 0.3s;
+  width: 84%;
+  float: left;
+ height: 100vh;
+ position: relative;
+  background-color: #e3eff7;
+
+ 
+}
+
+.job-grid{
+  margin:2.5rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  /* grid-template-rows: 350px 350px ; */
+ 
+
+
+ 
+}
+.job-container-box{
+  padding: 1rem;
+  background-color: white;
+  width: 50%;
+  height: auto;
+  /* height: auto; */
+  /* margin:2.0rem; */
+  
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+.sidebar-upper-main{
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  margin-top: 4rem;
+
+}
+
+
+.sidebar{
+  transition: all ease-in 0.3s;
+  position: absolute;
+  top: 0;
+ left: 16%;
+}
+.sidebarbar-show{
+  z-index: 1;
+}
+.sidebar-hide{
+  z-index: -1;
+}
+
+.sidebar-main{
+  transition: all 0.3s;
+  position: relative;
+  box-shadow: 4px 2px 3px rgba(0,0,0,1);
+  border-radius: 9px;
+  width: 60vw;
+  height: auto;
+  background-color: white;
+}
+.cross-icon{
+  transition: all 0.3s;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 2px;
+  background: none;
+  border: none;
+  font-size: 25px;
+  color: rgb(152, 9, 9);
+}
+.hide-content{
+  transition: all 0.3s;
+  display: none;
+}
+
+.flex-view{
+  transition: all 0.3s;
+  margin-top: -1.5rem;
+  display: flex;
+  justify-content: left;
+
+
+}
+
+.flex-view p{
+  transition: all 0.3s;
+  margin-top: -15px;
+  color: #566b8c;
+  font-size: 13px;
+  text-align: center;
+}
+
+.inner-view{
+  transition: all 0.3s;
+ margin-top: -5px;
+ margin-left: 1rem
+ ;
+}
+.grid-view{
+  transition: all 0.3s;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-view p{
+  color: #47587c;
+}
+
+.btn-simple{
+  margin-top: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  margin-right: 0.5rem;
+  font-size: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.btn-simple:hover{
+  transition: all 0.3s;
+  text-decoration: underline;
+  box-shadow: 1px 2.4px 0px rgba(0,0,0,0.4);
+}
+.edit-color{
+  background-color: rgb(166, 197, 166);
+  color: rgb(7, 68, 7);
+}
+.delete-color{
+  background-color: rgb(213, 163, 163);
+  color: rgb(106, 14, 14);
+}
+
+.color-box{
+  margin-top: 0.8rem;
+  font-size: 30px;
+  background-color: #3b82f6;
+  color: white;
+  float: left;
+  width: 20%;
+  font-weight: bolder;
+  height: 100%;
+  border-radius: 6px;
+  
+}
+
+.interview{
+  border-radius: 4px;
+  text-transform: capitalize;
+  text-align: center;
+  width: 65%;
+  background-color: rgb(166, 197, 166); 
+  color: rgb(4, 56, 4);
+
+}
+.decline{
+  border-radius: 4px;
+  text-transform: capitalize;
+  text-align: center;
+  width: 65%;
+  background-color: rgb(231, 169, 169);
+ 
+
+}
+.pending{
+  border-radius: 4px;
+  text-transform: capitalize;
+  text-align: center;
+  width: 65%;
+  background-color: rgb(225, 225, 155); 
+  color: rgb(93, 93, 7);
+
+}
+
+.page-btn{
+  background-color: #c3d4ef;
+  border: none;
+  color: #3b82f6;
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+.page-btn:hover{
+  background-color: #3b82f6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+
+
+.main-page{
+  background-color: #3b82f6;
+  color: white;
+  font-weight: bold;
+}
+.set-page-position{
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+
+
+}
+
+
+@media only screen and (max-width:880px) {
+  .small-sidebar{
+    display: none;
+  }
+  main{
+    width: 100%;
+
+  }
+  .big-sidebar,.job-container{
+    width: 100%;
+    height: 100vh;
+  }
+
+  .job-container{
+    padding-bottom: 2rem;
+  }
+
+
+  .job-grid{
+    grid-template-columns: auto;
+    justify-content: center;
+    row-gap: 1rem;
+    overflow: hidden;
+    height: auto;
+    overflow: hidden;
+   
+  }
+  .job-container-box{
+    width: auto;
+    height: auto;
+    padding: 2rem;
+    margin-left: 0;
+  }
+  .login_page{
+    width: 70%;
+  }
+  
+  .sidebar-main{
+    width: 80vw;
+    height: auto;
+  }
+  .sidebar{
+    left: 0;
+    margin: 2.5rem;
+  }
+  .input{
+    width: 90%;
+  }
+
+  .big-sidebar-profile{
+    height: auto;
+  }
+
+  .btn{
+    font-size: 14px;
+  }
+  
+  .set-page-position{
+    bottom: 0;
+
+  }
+ 
+}
